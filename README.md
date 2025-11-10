@@ -1,7 +1,10 @@
 # Ege University IEEE Computer Society – Bioinformatics Unit  
-### Analysis Projects by Meriç Özcan
+### Bridging Statistics and Biology through Data Science  
+#### Analysis Projects by Meriç Özcan
 
-This repository contains my bioinformatics studies conducted within the **Ege University IEEE Computer Society Bioinformatics Unit**, focusing on genetic data analysis and visualization using Python-based computational biology tools.
+This repository showcases analytical studies conducted within the **Ege University IEEE Computer Society Bioinformatics Unit**,  
+focusing on the intersection of **statistics, data science, and molecular biology**.  
+The projects demonstrate the use of computational and statistical tools for understanding complex biological data.
 
 ---
 
@@ -9,16 +12,16 @@ This repository contains my bioinformatics studies conducted within the **Ege Un
 **Notebook:** `Analysis of COVID-19 Cell Data and UMAP Visualization.ipynb`
 
 ### Overview
-This project analyzes **single-cell RNA sequencing (scRNA-seq)** data from COVID-19 patients.  
-The goal is to explore cellular heterogeneity and visualize gene expression differences using **UMAP (Uniform Manifold Approximation and Projection)**.
+This project explores **single-cell RNA sequencing (scRNA-seq)** data from COVID-19 patients.  
+The aim is to examine gene expression heterogeneity and visualize cellular structures using **UMAP (Uniform Manifold Approximation and Projection)**.
 
 ### Workflow
-- Loaded `.h5ad` dataset via **Scanpy**  
-- Performed filtering, normalization, and log-transformation of raw counts  
-- Identified **highly variable genes** and applied PCA for dimensionality reduction  
-- Constructed nearest-neighbor graphs and computed UMAP embeddings  
-- Visualized total counts, gene counts, and **cell-type clusters**  
-- Subselected **myeloid cells** to observe immune-related variations  
+- Loaded `.h5ad` single-cell dataset via **Scanpy**  
+- Filtered cells and genes based on expression thresholds  
+- Normalized counts and applied log transformation  
+- Selected highly variable genes and performed **PCA**  
+- Computed nearest neighbors and UMAP embeddings  
+- Visualized **cell-type clusters**, **gene counts**, and **myeloid cell distributions**
 
 ### Tools
 `Scanpy`, `AnnData`, `Scipy`, `NumPy`, `Pandas`, `Matplotlib`, `Seaborn`, `Scikit-learn`
@@ -30,14 +33,14 @@ The goal is to explore cellular heterogeneity and visualize gene expression diff
 
 ### Overview
 This study investigates **DNA methylation patterns** and classifies samples according to methylation types.  
-It combines statistical analysis, clustering, and supervised learning to interpret biological variation in methylation data.
+It integrates exploratory data analysis, clustering, and machine learning to identify biologically relevant methylation profiles.
 
 ### Workflow
-- Conducted exploratory data analysis (EDA) and feature extraction from CpG sites  
-- Applied clustering algorithms (**K-Means**, **DBSCAN**, **Hierarchical Clustering**)  
-- Implemented supervised models (**Logistic Regression**, **Random Forest**, **SVM**)  
-- Evaluated model performance using accuracy, precision, recall, and F1-score metrics  
-- Interpreted methylation profiles to identify biologically meaningful patterns  
+- Performed feature extraction from CpG sites and correlation analysis  
+- Applied unsupervised models: **K-Means**, **DBSCAN**, and **Hierarchical Clustering**  
+- Built supervised classifiers: **Logistic Regression**, **Random Forest**, **SVM**  
+- Evaluated models using Accuracy, Precision, Recall, and F1 Score  
+- Interpreted methylation patterns in relation to gene regulation
 
 ### Tools
 `Pandas`, `NumPy`, `Matplotlib`, `Seaborn`, `Scikit-learn`
@@ -45,16 +48,16 @@ It combines statistical analysis, clustering, and supervised learning to interpr
 ---
 
 ## Key Takeaways
-- The **COVID-19 dataset** revealed clear clustering among immune cell populations, notably myeloid cells.  
-- The **methylation dataset** demonstrated that both supervised and unsupervised models can successfully separate methylation-based sample groups.  
-- These analyses illustrate how **bioinformatics preprocessing** and **machine learning** can be combined for deeper biological insight.
+- The **COVID-19 single-cell dataset** revealed distinct immune cell groupings, highlighting myeloid cell variation.  
+- The **methylation dataset** showed that both clustering and classification models effectively distinguish methylation-based subgroups.  
+- These analyses demonstrate how combining **bioinformatics preprocessing** with **statistical modeling** yields interpretable biological insights.
 
 ---
 
 ## License
 All rights reserved © 2025 Meriç Özcan  
-The code and notebooks in this repository are provided for academic and educational use.  
-Unauthorized commercial use or redistribution is not permitted.
+The code and notebooks are shared for academic and educational purposes.  
+Unauthorized commercial use or redistribution is prohibited.
 
 ---
 
@@ -67,5 +70,6 @@ Unauthorized commercial use or redistribution is not permitted.
 ---
 
 ### About the Author
-**Meriç Özcan** is a statistics student specializing in **bioinformatics, data analysis, and AI-based risk modeling**.  
-He is a member of the Ege University IEEE Computer Society and focuses on projects that connect **statistical modeling with biological data**.
+**Meriç Özcan** is a statistics student passionate about **bioinformatics, artificial intelligence, and data-driven risk modeling**.  
+He focuses on connecting **quantitative methods** with **biological and genomic data**,  
+aiming to bridge disciplines through analytical thinking and scientific integrity.
